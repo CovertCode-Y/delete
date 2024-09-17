@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: beige;
+    color: rgb(241, 255, 38);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+
+.btnDisplay{
+    border-radius: 10px;
+    background-color: rgb(222, 170, 101);
+    box-shadow: 3px 3px 3px black;
+    border: none;
+    padding: 8px;
+    margin: 20px;
+    color: rgb(119, 72, 12);
+}
+
+.btnDisplay:hover{
+background-color: rgb(61, 47, 28);
+color: beige;
+}
+
+
+.div-yelow{
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    box-shadow: 3px 3px 3px rgb(81, 81, 81);
+}
+
+.disNone{
+    display: none;
+}
